@@ -35,7 +35,7 @@ const Services = () => {
     
   return (
     <div className="">
-       <div className="py-10 px-4 bg-sky-100 text-center text-2xl w-full text-blue-600 font-semibold">
+       <div className="py-10 px-4 bg-bsky text-center text-2xl w-full text-blue-600 font-semibold">
             <h1 className="">Explore our specialized medical <br />
                 services
             </h1>
@@ -52,7 +52,7 @@ const Services = () => {
                     </div>
                     <h1 className="">{item.title}</h1>
                     <p className="">{item.desc1} <br /> {item.desc2}</p>
-                    <button className="py-3 px-5 rounded-full bg-blue-600 text-white">{item.button}</button>
+                    <button className="py-3 px-5 rounded-full bg-blueDark text-white">{item.button}</button>
                 </div>
             ))}
             

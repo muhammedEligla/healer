@@ -8,7 +8,7 @@ const Featuerd = () => {
     <div className="py-4 px-4 md:px-10 xl:px-20 ">
         {/**title */}
       <div className="">
-        <h1 className="font-semibold text-blue-500">Featured Doctors</h1>
+        <h1 className="font-semibold text-subTitle">Featured Doctors</h1>
       </div>
       {/* boxes pareint */}
       <div className="flex flex-col md:flex-row gap-4 w-full">
@@ -25,7 +25,7 @@ const Featuerd = () => {
             </div>
             {/* subtitle */}
             <div className="">
-                <h3 className="text-blue-600">Dr. muhammed eligla</h3>
+                <h3 className="text-subTitle">Dr. muhammed eligla</h3>
             </div>
             {/* desc */}
             <div className="">
@@ -48,21 +48,21 @@ const Featuerd = () => {
             {/* icons */}
             <div className="flex justify-around my-9">
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><IoIosTimer /></div>
+                    <div className="text-subTitle text-2xl mx-auto"><IoIosTimer /></div>
                     <div className="">Waiting <br /> 30 minutes</div>
                 </div>
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><FaDollarSign /> </div>
+                    <div className="text-subTitle text-2xl mx-auto"><FaDollarSign /> </div>
                     <div className="">Fees <br /> 340 TL</div>
                 </div>
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><IoMdCall /></div>
+                    <div className="text-subTitle text-2xl mx-auto"><IoMdCall /></div>
                     <div className="">Call us <br /> 394850349</div>
                 </div>
             </div>
             {/* button */}
             <div className="flex flex-col gap-2">
-                <button className="py-2 px-5 bg-blue-600 text-white  rounded-md">
+                <button className="py-2 px-5 bg-bluelight text-white  rounded-md">
                     book 07/4/2024(06-00 pm 09:00 pm)
                 </button>
                 <button className="bg-white py-2">show other avilable dates <MdOutlineKeyboardArrowDown className="inline" /></button>
@@ -80,7 +80,7 @@ const Featuerd = () => {
             </div>
             {/* subtitle */}
             <div className="">
-                <h3 className="text-blue-600">Dr. muhammed eligla</h3>
+                <h3 className="text-subTitle">Dr. muhammed eligla</h3>
             </div>
             {/* desc */}
             <div className="">
@@ -103,21 +103,21 @@ const Featuerd = () => {
             {/* icons */}
             <div className="flex justify-around my-9">
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><IoIosTimer /></div>
+                    <div className="text-subTitle text-2xl mx-auto"><IoIosTimer /></div>
                     <div className="">Waiting <br /> 30 minutes</div>
                 </div>
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><FaDollarSign /> </div>
+                    <div className="text-subTitle text-2xl mx-auto"><FaDollarSign /> </div>
                     <div className="">Fees <br /> 340 TL</div>
                 </div>
                 <div className="flex flex-col justify-center text-center cursor-pointer">
-                    <div className="text-sky-600 text-2xl mx-auto"><IoMdCall /></div>
+                    <div className="text-subTitle text-2xl mx-auto"><IoMdCall /></div>
                     <div className="">Call us <br /> 394850349</div>
                 </div>
             </div>
             {/* button */}
             <div className="flex flex-col gap-2">
-                <button className="py-2 px-5 bg-blue-600 text-white  rounded-md">
+                <button className="py-2 px-5 bg-bluelight text-white  rounded-md">
                     book 07/4/2024(06-00 pm 09:00 pm)
                 </button>
                 <button className="bg-white py-2">show other avilable dates <MdOutlineKeyboardArrowDown className="inline" /></button>

@@ -19,7 +19,7 @@ const Navbar = () => {
   const [listIsOpen , setIsOpen ] = useState(false)
   const pathname = useLocation().pathname
   return (
-    <div className="px-4 md:px-10 xl:px-20  flex justify-between flex-row items-center w-full  py-2 bg-sky-100  relative">
+    <div className="px-4 md:px-10 xl:px-20  flex justify-between flex-row items-center w-full  py-2 bg-bsky  relative">
         <div className="">
           <img className="w-10" src="logo.png" alt="" />
         </div>
@@ -41,13 +41,13 @@ const Navbar = () => {
 
 
         {/* meduem screen list */}
-        <div className={`absolute right-7 top-14 bg-sky-100 py-3 px-9 text-center z-10 rounded-md md:hidden ${listIsOpen ? 'flex' : 'hidden'}`}>
+        <div className={`absolute right-7 top-14 bg-bsky py-3 px-9 text-center z-10 rounded-md md:hidden ${listIsOpen ? 'flex' : 'hidden'}`}>
           <ul className="flex flex-col gap-2">
           {listOfNav.map(item =>(
                 <li key={item.title} style={{color:item.link === pathname ? 'blue' : ''}} ><Link className="hover:bg-sky-200 py-1 px-2 rounded-md" to={item.link}> {item.title} </Link></li>
               ))}
               <li className="bg-neutral-100 py-1 px-2 rounded-md cursor-pointer hover:bg-sky-200">
-                <span className="text-xl text-sky-500 mx-auto" >Login</span>
+                <span className="text-xl text-subTitle mx-auto" >Login</span>
               </li>
           </ul>
         </div>
